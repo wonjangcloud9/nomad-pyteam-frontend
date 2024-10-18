@@ -42,4 +42,4 @@ if st.button("회원가입"):
         st.success(f"🎉 '{username}'님, 회원가입이 완료되었습니다!")
         existing_users.append(username)
 
-st.markdown("이미 계정이 있으신가요? [로그인](main)")
+st.markdown('이미 계정이 있으신가요? <a href="/main" target="_self">로그인</a>', unsafe_allow_html=True)

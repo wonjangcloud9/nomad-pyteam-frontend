@@ -34,4 +34,4 @@ if st.button("로그인"):
     else:
         st.error("❌ 유저 정보가 일치하지 않습니다. 다시 시도해주세요. ❌")
 
-st.markdown("계정이 없으신가요? [회원가입](signup)")
+st.markdown('계정이 없으신가요? <a href="/signup" target="_self">회원가입</a>', unsafe_allow_html=True)
